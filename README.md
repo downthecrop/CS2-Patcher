@@ -2,6 +2,10 @@
 
 Apply updater configs and update to the final supported version of CS2.
 
+## Download
+
+https://github.com/downthecrop/CS2-Patcher/releases/latest
+
 ## Instructions
 
 - Install Photoshop CS2 (find a copy of PhSp_CS2_English.exe `MD5: C24F1C53297CA179650031094571DCE0`)
