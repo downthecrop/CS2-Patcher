@@ -8,8 +8,7 @@ https://github.com/downthecrop/CS2-Patcher/releases/latest
 
 ## Instructions
 
-- Install Photoshop CS2 (find a copy of PhSp_CS2_English.exe `MD5: C24F1C53297CA179650031094571DCE0`)
-- Serial Number: `1045-1412-5685-1654-6343-1431`
+- Install Photoshop CS2
 - Run this as Administrator
 
 ## Features
