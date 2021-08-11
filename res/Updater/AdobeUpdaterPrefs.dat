@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AdobeUpdater>
+<LastDateCheck>2021-08-08</LastDateCheck>
+<AutoCheck>0</AutoCheck>
+<DownloadDir>C:\</DownloadDir>
+<ShowNewProducts>0</ShowNewProducts>
+<AutoCheckType>1</AutoCheckType>
+<IsFirstRun>0</IsFirstRun>
+<InTrayIcon>0</InTrayIcon>
+<IsTransactionOpen>0</IsTransactionOpen>
+<InBackground>0</InBackground>
+<ApplicationsEnabled>
+<MapPrefEntry MapPrefKey="bridge1">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="helpcenter1">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="photoshop9-en_US-LIC">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="stockphotos1">1</MapPrefEntry>
+</ApplicationsEnabled>
+</AdobeUpdater>
