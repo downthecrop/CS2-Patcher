@@ -23,7 +23,6 @@ def check_process(process_name):
     '''
     Check if there is any running process that contains the given name process_name.
     '''
-    #Iterate over the all the running process
     for proc in psutil.process_iter():
         try:
             if process_name.lower() in proc.name().lower():
@@ -49,11 +48,9 @@ if __name__ == "__main__":
         while check_process("setup.exe"):
             sleep(1)
             print("Waiting for 9.0.2 Update to be installed")
-        
-        print("")
 
         # WebP extension install https://github.com/webmproject/WebPShop
-        print("Installing WebP File Format")
+        print("\nInstalling WebP File Format")
         try:
             copyfile(path+"\\res\\WebP.8bi", ps_dir+"\\Plug-Ins\\File Formats\\WebP.8bi")
         except FileNotFoundError:
@@ -74,12 +71,15 @@ if __name__ == "__main__":
         # Cleanup install files
         print("Removing installation files")
         try:
+            # Inflated installer
             rmtree(drive+"\\PhSp_CS2_UE_Ret")
+            # Update files
+            rmtree(drive+"\\Program Files\\PSCS2")
         except FileNotFoundError:
             print("No installation files to cleanup")
 
         print("\nDone")
     else:
         print("Please run as Administrator")
-    
+
     input("Press [ENTER] to close")
