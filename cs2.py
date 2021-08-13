@@ -71,10 +71,10 @@ if __name__ == "__main__":
         # Cleanup install files
         print("Removing installation files")
         try:
-            # Inflated installer
-            rmtree(drive+"\\PhSp_CS2_UE_Ret")
             # Update files
             rmtree(drive+"\\Program Files\\PSCS2")
+            # Inflated installer
+            rmtree(drive+"\\PhSp_CS2_UE_Ret")
         except FileNotFoundError:
             print("No installation files to cleanup")
 
